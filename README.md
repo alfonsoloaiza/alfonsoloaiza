@@ -13,6 +13,10 @@ I have contributed to the technical development of:
 * **[fullcertificate.com](https://fullcertificate.com)** — .NET Backend & Web Solutions.
 * **[interfell.com](https://interfell.com)** — QA & Support for Ticopay.
 
+### Resume CV
+[![Resumen pdf English](https://github.com/alfonsoloaiza/alfonsoloaiza/blob/main/Actual-resume.pdf)]
+[![Resumen pdf English](https://github.com/alfonsoloaiza/alfonsoloaiza/blob/main/resumen-actual.pdf)]
+
 ### 📫 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonsoloaiza/)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/alfonso.loaizar/)
