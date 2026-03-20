@@ -18,7 +18,7 @@ I have contributed to the technical development of:
 Resume CV English (https://github.com/alfonsoloaiza/alfonsoloaiza/blob/main/Actual-resume.pdf)
 
 
-Resumen CV Español (https://github.com/alfonsoloaiza/alfonsoloaiza/blob/main/resumen-actual.pdf)
+Resumen CV Español (https://github.com/alfonsoloaiza/alfonsoloaiza/blob/8bbce9756b6c1260ae8ba32a4d82187e203b1ddb/Resumen-actual.pdf)
 
 ### 📫 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonsoloaiza/)
