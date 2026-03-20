@@ -8,7 +8,7 @@ Systems Engineer with 8+ years of experience. Full Stack Developer specializing 
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
 ### 💼 Professional Presence
-I have contributed to the technical development of:
+I have contributed to the software development of:
 * **[worldsacross.com](https://worldsacross.com)** — Hybrid PWA Development.
 * **[fullcertificate.com](https://fullcertificate.com)** — .NET Backend & Web Solutions.
 * **[interfell.com](https://interfell.com)** — QA & Support for Ticopay.
