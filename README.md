@@ -14,11 +14,9 @@ I've contributed to the software development of:
 * **[interfell.com](https://interfell.com)** — QA & Support for Ticopay.
 
 ### Portfolio
-[![Portfolio](https://img.shields.io/badge/portfolio-brightgreen?style=for-the-badge)]
-(https://alfonsoloaiza.github.io/alfonsoloaiza/)
+[![Portfolio](https://img.shields.io/badge/my-portfolio-brightgreen?style=for-the-badge)](https://alfonsoloaiza.github.io/alfonsoloaiza/)
 
 ### Resume CV
-
 [![Resume-english](https://img.shields.io/badge/resume-english-brightgreen?style=for-the-badge)](https://github.com/alfonsoloaiza/alfonsoloaiza/blob/main/Actual-resume.pdf)
 
 [![Resumen-spanish](https://img.shields.io/badge/resumen-spanish-brightgreen?style=for-the-badge)](https://github.com/alfonsoloaiza/alfonsoloaiza/blob/8bbce9756b6c1260ae8ba32a4d82187e203b1ddb/Resumen-actual.pdf)
