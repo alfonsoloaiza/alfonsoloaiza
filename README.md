@@ -17,9 +17,9 @@ I've contributed to the software development of:
 [![Portfolio](https://img.shields.io/badge/my-portfolio-brightgreen?style=for-the-badge)](https://alfonsoloaiza.github.io/alfonsoloaiza/)
 
 ### Resume CV
-[![Resume-english](https://img.shields.io/badge/resume-english-brightgreen?style=for-the-badge)](https://github.com/alfonsoloaiza/alfonsoloaiza/blob/main/Actual-resume.pdf)
+[![Resume-english](https://img.shields.io/badge/resume-english-brightgreen?style=for-the-badge)](https://docs.google.com/document/d/e/2PACX-1vT6s5fMRJijfTEyPACayj5QUWfn__T0zLMFhBMJKlNj4EUqquLf9r-LLgK4d45XO85PAs6NM-T1vJRw/pub)
 
-[![Resumen-spanish](https://img.shields.io/badge/resumen-spanish-brightgreen?style=for-the-badge)](https://github.com/alfonsoloaiza/alfonsoloaiza/blob/8bbce9756b6c1260ae8ba32a4d82187e203b1ddb/Resumen-actual.pdf)
+[![Resumen-spanish](https://img.shields.io/badge/resumen-spanish-brightgreen?style=for-the-badge)](https://docs.google.com/document/d/e/2PACX-1vR7-YDfSnstmWVWDm293izS37wYlPc_b_v_r8rgw99dT7-5-59y1Kh7Izkgx31djd0cT0-yGRb8pSUJ/pub)
 
 ### 📫 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](alfonso-loaiza-rodriguez)
