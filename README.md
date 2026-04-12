@@ -22,8 +22,7 @@ I've contributed to the software development of:
 [![Resumen-spanish](https://img.shields.io/badge/resumen-spanish-brightgreen?style=for-the-badge)](https://docs.google.com/document/d/e/2PACX-1vR7-YDfSnstmWVWDm293izS37wYlPc_b_v_r8rgw99dT7-5-59y1Kh7Izkgx31djd0cT0-yGRb8pSUJ/pub)
 
 ### 📫 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]
-(https://linkedin.com/in/alfonso-loaiza-rodriguez)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alfonso-loaiza-rodriguez)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/alfonso.loaizar/)
 [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/16894350/alfonso-josé)
 
