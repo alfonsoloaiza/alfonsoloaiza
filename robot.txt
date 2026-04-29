@@ -1,0 +1,17 @@
+User-agent: *
+
+# Bloquear dependencias y configuración
+Disallow: /node_modules/
+Disallow: /locales/
+
+# Bloquear recursos y multimedia
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /pdf/
+
+# Bloquear archivos específicos de Google Forms (si tienes archivos locales relacionados)
+Disallow: /google-forms/
+
+# Permitir que el robot rastree la página principal para que el sitio sea visible
+Allow: https://alfonsoloaiza.github.io/alfonsoloaiza/

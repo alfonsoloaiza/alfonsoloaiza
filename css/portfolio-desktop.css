@@ -723,7 +723,7 @@ footer {
 }
 
 
-.portfolio .section-awards {
+.section-awards {
   width: 100%;
   min-height: 350px;
   max-height: 400px;
@@ -736,9 +736,10 @@ footer {
   gap: 20px;
   padding-top: 20px;
   padding-bottom: 20px;  
+  flex-direction: row !important;
 }
 
-.portfolio .section-awards .award-items {
+.section-awards .award-items {
   width: 30%;
   height: 300px;
   background: white;
