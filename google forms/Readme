@@ -1,0 +1,47 @@
+https://docs.google.com/forms/d/e/1FAIpQLSf7H8IIZAewRu7BEsRuCQbqY49KUa226Mu4Nbi51eEHIFruEw/viewform?usp=dialog
+
+var campos = document.querySelectorAll('div[data-params]');
+campos.forEach(c => {
+  var p = c.getAttribute('data-params');
+  if(p) {
+    var id = p.match(/\[(\d+),/);
+    var nombre = p.match(/".*?"/);
+    if(id && nombre) console.log("Campo: " + nombre[0] + " -> entry." + id[1]);
+  }
+});
+
+
+Campo: "Company name (Empresa)" -> entry.1633920210 debugger eval code:7:30
+Campo: "Email (Correo electrónico)" -> entry.227649005 debugger eval code:7:30
+Campo: "Ask anything (Dime lo que necesitas)" -> entry.359346719 debugger eval code:7:30
+Campo: "Job opening link (Enlace de tu oferta)" -> entry.1846923513 debugger eval code:7:30
+Campo: "Work mode (Modalidad de trabajo)" -> entry.850572067
+
+
+Campo: "company-name" -> entry.1633920210 debugger eval code:7:30
+Campo: "email\n" -> entry.227649005 debugger eval code:7:30
+Campo: "ask-anything\n" -> entry.359346719 debugger eval code:7:30
+Campo: "link-to-job\n\n\n" -> entry.1846923513 debugger eval code:7:30
+Campo: "work-mode\n" -> entry.850572067
+
+
+var form = document.querySelector('form');
+var inputs = document.querySelectorAll('input[name^="entry."], textarea[name^="entry."], select[name^="entry."]');
+console.log("--- TUS IDS REALES ---");
+inputs.forEach(input => {
+    console.log(input.name + " -> Corresponde a la pregunta que está antes de este ID");
+});
+
+entry.2005620554 -> Corresponde a la pregunta que está antes de este ID debugger eval code:5:13
+entry.1045781291 -> Corresponde a la pregunta que está antes de este ID debugger eval code:5:13
+entry.413783281 -> Corresponde a la pregunta que está antes de este ID debugger eval code:5:13
+entry.839337160 -> Corresponde a la pregunta que está antes de este ID debugger eval code:5:13
+entry.1295736863_sentinel  -> Corresponde a la pregunta que está antes de este ID
+
+https://docs.google.com/forms/d/e/1FAIpQLSf7H8IIZAewRu7BEsRuCQbqY49KUa226Mu4Nbi51eEHIFruEw/formResponse
+
+entry.2005620554 -> Corresponde a la pregunta que está antes de este ID
+VM1856:5 entry.1045781291 -> Corresponde a la pregunta que está antes de este ID
+VM1856:5 entry.413783281 -> Corresponde a la pregunta que está antes de este ID
+VM1856:5 entry.839337160 -> Corresponde a la pregunta que está antes de este ID
+VM1856:5 entry.1295736863_sentinel -> Corresponde a la pregunta que está antes de este ID

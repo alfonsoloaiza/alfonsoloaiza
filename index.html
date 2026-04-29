@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Breve descripción de la página para SEO."
+        />
+        <link rel="manifest" href="manifest.json">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css"
+            integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+        <link rel="stylesheet" href="css/portfolio-mobile.css"  />
+        <link rel="stylesheet" href="css/portfolio-tablet.css"  />
+        <link rel="stylesheet" href="css/portfolio-desktop.css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <section class="main">
+            <article class="main-article">
+                <h1 class="main-title" data-i18n="main-title"></h1>
+                <h2 class="sub-title" data-i18n="sub-title"></h2>
+                <img
+                    src="images/assets/design-images/undraw_programming_j1zw.svg"
+                    alt=""
+                    width="300"
+                    height="300"
+                />
+
+                <div class="links">
+                    <a
+                        href="https://github.com/alfonsoloaiza/alfonsoloaiza"
+                        class="btn btn-color-black"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        <span data-i18n="btn-color-black"></span>
+                    </a>
+                    <a
+                        href="https://linkedin.com/in/alfonso-loaiza-rodriguez"
+                        class="btn btn-color-blue"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span data-i18n="btn-color-blue"></span>
+                    </a>
+                </div>
+                <div class="next-section-link">
+                    <a
+                        class="btnToDown"
+                        onclick="
+                            event.preventDefault();
+                            scrollToSection(2);
+                        "
+                        ><i class="fa-solid fa-circle-chevron-down"></i
+                    ></a>
+                </div>
+            </article>
+        </section>
+        <section class="achievements-section scroll-item">
+            <div class="achievements-container">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span
+                            class="stat-number"
+                            data-i18n="number-years"
+                        ></span>
+                        <span class="stat-label" data-i18n="stat-label"></span>
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span
+                            class="stat-number"
+                            data-i18n="programming-type"
+                        ></span>
+                        <span
+                            class="stat-label"
+                            data-i18n="programming-langs"
+                        ></span>
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span
+                            class="stat-number"
+                            data-i18n="cross-platform"
+                        ></span>
+                        <span
+                            class="stat-label"
+                            data-i18n="devices-platform"
+                        ></span>
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-i18n="agile"></span>
+                        <span
+                            class="stat-label"
+                            data-i18n="methodologies"
+                        ></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills-container scroll-item">
+            <h2 class="section-title" data-i18n="competences"></h2>
+            <div class="glass-card hard-skills">
+                <div class="card-title">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3 data-i18n="hard-skills"></h3>
+                </div>
+                <ul class="skills-list">
+                    <li data-i18n="item-csharp"><span class="dot"></span></li>
+                    <li data-i18n="item-aspnet"><span class="dot"></span></li>
+                    <li data-i18n="item-angular"><span class="dot"></span></li>
+                    <li data-i18n="item-ionic"><span class="dot"></span></li>
+                    <li data-i18n="item-typescript">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-javascript">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-testing"><span class="dot"></span></li>
+                    <li data-i18n="item-software"><span class="dot"></span></li>
+                    <li data-i18n="item-reach"><span class="dot"></span></li>
+                    <li data-i18n="item-final-reach">
+                        <span class="dot"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-card soft-skills">
+                <div class="card-title">
+                    <i class="fas fa-user-tie"></i>
+                    <h3 data-i18n="soft-skills"></h3>
+                </div>
+                <ul class="skills-list">
+                    <li data-i18n="item-years"><span class="dot"></span></li>
+                    <li data-i18n="item-management">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-agile-methodologie">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-teamwork"><span class="dot"></span></li>
+                    <li data-i18n="item-detail-attention">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-adaptability">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-key-achievements">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-research"><span class="dot"></span></li>
+                    <li data-i18n="item-brainstorming">
+                        <span class="dot"></span>
+                    </li>
+                    <li data-i18n="item-viability">
+                        <span class="dot"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="next-section">
+                <a
+                    class="btnToDown"
+                    onclick="
+                        event.preventDefault();
+                        scrollToSection(4);
+                    "
+                    ><i class="fa-solid fa-circle-chevron-down"></i
+                ></a>
+            </div>
+        </section>
+        <section class="skills-section skills-section-tablet scroll-item">
+            <div class="skills-grid core-competence">
+                <h2
+                    class="section-title"
+                    data-i18n="item-core-programming"
+                ></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card advanced">
+                    <div class="card-header">
+                        <i class="fas fa-server"></i>
+                        <h3 data-i18n="item-backend"></h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <strong
+                                data-i18n="item-backend-description"
+                            ></strong>
+                        </li>
+                    </ul>
+                    <span class="badge">Core Strength</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="card-header">
+                        <i class="fas fa-code"></i>
+                        <h3 data-i18n="item-frontend-mobile"></h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <strong data-i18n="item-frontend-description">
+                            </strong>
+                        </li>
+                    </ul>
+                    <span class="badge-plate">Core Senior</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="card-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3 data-i18n="item-management-project"></h3>
+                    </div>
+                    <ul>
+                        <li><strong data-i18n="item-agile-core"> </strong></li>
+                    </ul>
+                    <span class="badge-emerald">Core Mid</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-slider-container">
+            <div class="tech-slide-track">
+                <div class="tech-item">
+                    <i class="devicon-angular-plain-wordmark"></i
+                    ><span>Angular</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-ionic-original colored"></i
+                    ><span>Ionic</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-capacitor-plain-wordmark colored"></i
+                    ><span>Capacitor</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-vscode-plain colored"></i
+                    ><span>VS Code</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-androidstudio-plain colored"></i
+                    ><span>Android Studio</span>
+                </div>
+                <div class="tech-item-empty"></div>
+                <div class="tech-item">
+                    <i class="devicon-postman-plain colored"></i
+                    ><span>Postman</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-openapi-plain colored"></i
+                    ><span>API Rest</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-wordpress-plain"></i
+                    ><span>WordPress</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-php-plain colored"></i><span>PHP</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-mysql-plain colored"></i
+                    ><span>MySQL</span>
+                </div>
+                <div class="tech-item-empty"></div>
+                <div class="tech-item">
+                    <i class="devicon-visualstudio-plain colored"></i
+                    ><span>Visual Studio</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-dot-net-plain colored"></i
+                    ><span>.NET</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-csharp-plain colored"></i><span>C#</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-dotnetcore-plain colored"></i
+                    ><span>.NET Core</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-dotnetcore-plain colored"></i
+                    ><span>Web API</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-microsoftsqlserver-plain colored"></i
+                    ><span>SQL Server</span>
+                </div>
+                <div class="tech-item-empty"></div>
+                <div class="tech-item">
+                    <i class="devicon-java-plain colored"></i><span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-spring-plain colored"></i
+                    ><span>Spring Boot</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-spring-plain colored"></i
+                    ><span>Spring Framework</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-maven-plain colored"></i
+                    ><span>Maven</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-java-plain colored"></i
+                    ><span>Java FX</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-hibernate-plain colored"></i
+                    ><span>Hibernate</span>
+                </div>
+                <div class="tech-item">
+                    <i class="devicon-netbeans-plain"></i><span>NetBeans</span>
+                </div>
+                <div class="tech-item-empty"></div>
+            </div>
+        </section>
+
+        <section class="portfolio scroll-item" id="portfolio">
+            <h2 class="section-title" data-i18n="item-sub-title-portfolio"></h2>
+            <div class="slider-container">
+                <video src="images/assets/gif-video/videofolio.mp4" type="video/mp4" autoplay muted loop></video>
+                <!-- <div class="button-slide">
+                    <a class="prev-slide" id="prevBtn"
+                        ><i class="fa-solid fa-circle-chevron-left"></i
+                    ></a>
+                </div>
+                <div class="container-img slider slider-show">
+                    <img
+                        src="images/assets/wordsacross/example4.webp"
+                        class="active"
+                        width="200"
+                        height="400"
+                        alt=""
+                    />
+                    <img
+                        src="images/assets/wordsacross/Captura de pantalla_2025-12-27_19-07-09.webp"
+                        width="200"
+                        height="400"
+                        alt=""
+                    />
+                    <img
+                        src="images/assets/wordsacross/1.webp"
+                        width="200"
+                        height="400"
+                        alt=""
+                    />
+                    <img
+                        src="images/assets/wordsacross/Captura de pantalla_2025-12-27_19-09-01.webp"
+                        width="200"
+                        height="400"
+                        alt=""
+                    />
+                    <img
+                        src="images/assets/wordsacross/Captura de pantalla_2025-12-27_19-09-24.webp"
+                        width="200"
+                        height="400"
+                        alt=""
+                    />
+                </div>
+                <div class="container-img slider slider-hidden">
+                    <img
+                        src="images/assets/full-certificate/epropietariosbg.webp"
+                        class="white-bg epropietarios"
+                        alt=""
+                        width="200"
+                        height="400"
+                    />
+                    <img
+                        src="images/assets/full-certificate/example1.webp"
+                        class="transparent-bg epropietarios"
+                        alt=""
+                        width="200"
+                        height="400"
+                    />
+                </div>
+                <div class="container-img slider slider-hidden">
+                    <img
+                        src="images/assets/full-certificate/example2.webp"
+                        class="transparent-bg wevote-desktop"
+                        alt=""
+                        width="200"
+                        height="400"
+                    />
+                    <img
+                        src="images/assets/full-certificate/example3.webp"
+                        class="wevote-mobile"
+                        alt=""
+                        width="200"
+                        height="400"
+                    />
+                </div>
+                <div class="button-slide">
+                    <a class="next-slide" id="nextBtn"
+                        ><i class="fa-solid fa-circle-chevron-right"></i
+                    ></a>
+                </div> -->
+            </div>
+            <section class="section-awards">
+                <div class="award-items">
+                    <h2 class="title">
+                        Worldsacross<i class="fa-solid fa-web-awesome"></i>
+                    </h2>
+                    <ol>
+                        <li data-i18n="item-wordsacross-1"></li>
+                        <li data-i18n="item-wordsacross-2"></li>
+                        <li data-i18n="item-wordsacross-3"></li>
+                        <li data-i18n="item-wordsacross-4"></li>
+                        <li data-i18n="item-wordsacross-5"></li>
+                        <li>
+                            <a data-i18n="item-wordsacross-6" href="https://blog.worldsacross.com/index"></a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="award-items">
+                    <h2 class="title">
+                        Fullcertificate <i class="fa-solid fa-medal"></i>
+                    </h2>
+                    <ol>
+                        <li data-i18n="item-fullcertificate-1"></li>
+                        <li data-i18n="item-fullcertificate-2"></li>
+                        <li data-i18n="item-fullcertificate-3"></li>
+                        <li data-i18n="item-fullcertificate-4"></li>
+                        <li data-i18n="item-fullcertificate-5"></li>
+                        <li>
+                            <a
+                                href="https://www.wevote.eu/europa-elecciones-con-wevote-a-traves-de-voto-electronico-avanzado-certificado-validez-legal/"
+                                data-i18n="item-fullcertificate-6"
+                            ></a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="award-items">
+                    <h2 class="title">
+                        Interfell <i class="fa-solid fa-code-branch"></i>
+                    </h2>
+                    <ol>
+                        <li data-i18n="item-interfell-1"></li>
+                        <li data-i18n="item-interfell-2"></li>
+                        <li data-i18n="item-interfell-3"></li>
+                        <li data-i18n="item-interfell-4"></li>
+                        <li data-i18n="item-interfell-5"></li>
+                        <li>
+                            <a
+                                href="https://blog.interfell.com/en-3-meses-ticopay-produjo-un-mvp-de-facturacion-electronica"
+                                data-i18n="item-interfell-6"
+                            ></a>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+        </section>
+        <footer>
+            <section class="section-main">
+                <div class="franja amarillo"></div>
+                <div class="franja azul">
+                    <span class="estrellas-arco">★ ★ ★ ★ ★ ★ ★ </span>
+                </div>
+                <div class="franja rojo"></div>
+            </section>            
+            <section class="about-me">
+                <h2>Feel free to contact me.</h2>
+                <div class="agent-card">
+                    <div class="top-notch"></div>
+
+                    <!-- <div class="avatar"> -->
+                    <img
+                        src="images/assets/profile pic/pic.jpeg"
+                        class="avatar"
+                        alt=""
+                    />
+                    <!-- </div> -->
+
+                    <h2 class="name">Alfonso Loaiza</h2>
+                    <p class="job-title">Software Engineer</p>
+
+                    <a href="https://wa.me/584247909696" class="btn-click"
+                        >Whatsapp<i class="fa-brands fa-whatsapp"></i
+                    ></a>
+                    <span class="card-alexmaracinaru"
+                        >card designed by @alexmaracinaru</span
+                    >
+                </div>
+            </section>
+        </footer>
+
+        <script scr="sw.js"></script>
+        <script src="js/script.js"></script>                
+    </body>
+</html>

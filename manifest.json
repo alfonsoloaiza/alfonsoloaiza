@@ -1,0 +1,34 @@
+{
+  "name": "Alfonso Portfolio",
+  "short_name": "Portfolio",
+  "description": "Hi, I'm Alfonso Loaiza 👋 🚀 Software Engineer with 8+ years of experience.",
+  "start_url": "https://alfonsoloaiza.github.io/alfonsoloaiza/",
+  "display": "standalone",
+   "screenshots": [
+    {
+      "src": "./images/assets/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop view"
+    },
+    {
+      "src": "./images/assets/screenshots/mobile.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile view"
+    }
+  ],  
+  "orientation": "any",
+  "theme_color": "#512888",
+  "background_color": "#011950",
+  "icons": [
+    {
+      "src": "./images/assets/icons/man.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

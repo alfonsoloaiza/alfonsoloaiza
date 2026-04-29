@@ -1,0 +1,6 @@
+Lenguaje principal	Java	Lenguaje de programación.
+Framework UI	JavaFX	Biblioteca principal para construir la interfaz de usuario (ventanas, botones, gráficos).
+Diseño de UI	Scene Builder	Herramienta visual que te permite arrastrar y soltar componentes para crear la estructura FXML de JavaFX sin escribir código a mano.
+Base de datos	SQLite o H2 Database	Bases de datos ligeras, ideales para aplicaciones de escritorio que necesitan almacenar datos localmente sin un servidor dedicado.
+Persistencia (ORM)	Hibernate o JPA	Facilita la interacción con la base de datos (guardar, recuperar, actualizar datos) usando objetos Java en lugar de SQL puro.
+Construcción/Manejo de dependencias	Maven o Gradle	Herramientas esenciales para automatizar la compilación del proyecto, gestionar bibliotecas externas (dependencias) y crear el ejecutable final.

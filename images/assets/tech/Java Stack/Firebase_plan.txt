@@ -1,0 +1,14 @@
+Firebase tiene un plan gratuito llamado "Spark" que es ideal para comenzar, pero no todos sus productos son completamente gratuitos. Los costos aumentan si excedes los límites del plan gratuito, lo que puede requerir que habilites la facturación y pases a un plan de pago según el uso. 
+Plan gratuito ("Spark")
+Ofrece un nivel de uso sin costo para todos los productos, perfecto para empezar o para aplicaciones pequeñas. 
+Algunos productos, como el alojamiento de sitios web (Firebase Hosting), ofrecen uso gratuito sin importar el nivel de uso. 
+Los límites de los productos se basan en cuotas diarias o mensuales que se restablecen a medianoche, hora del Pacífico. 
+Puedes seguir usando algunos productos incluso después de exceder los límites, pero es posible que debas migrar a un plan de pago. 
+Plan de pago
+Necesitas habilitar la facturación para usar ciertos productos y funcionalidades, como las bases de datos con nombre en Firestore. 
+Los costos se basan en el uso (pago por uso), que puede aumentar drásticamente a medida que tu aplicación crece. 
+Es importante supervisar tus recursos para evitar costos inesperados. 
+Resumen
+Firebase no es completamente gratis; tiene un plan gratuito con límites y un modelo de pago por uso.
+El plan gratuito es suficiente para proyectos pequeños y para comenzar, pero los costos pueden crecer con la demanda.
+El plan de pago es necesario para superar los límites del plan gratuito y usar servicios con más recursos. 
