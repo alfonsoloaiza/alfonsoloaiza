@@ -1,7 +1,7 @@
 # Hi, I'm Alfonso Loaiza 👋
 
 ## 🚀 Software Engineer
-Systems Engineer with 8+ years of experience. Full Stack Developer specializing in Web, Mobile, and Desktop Apps using **Angular/Ionic**, the **.NET ecosystem** (C#, Web API), and **Java**. 
+Software Engineer with 8+ years of experience. Full Stack Developer specializing in Web, Mobile, and Desktop Apps using **Angular/Ionic**, the **.NET ecosystem** (C#, Web API), and **Java**. 
 
 ### 🛠️ Tech Stack
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
