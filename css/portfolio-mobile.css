@@ -18,20 +18,17 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: space-evenly;
-        background: #011950;
-        background-image: radial-gradient(circle,
-      rgba(255, 0, 255, 0.6) 0%,
-      rgba(255, 0, 255, 0) 70%,
-      #1a1a1a 100%);
-      padding: 0px 20px;
-      box-sizing: border-box;
+        background: #0e1116;      
+        background-image: radial-gradient(circle, #d95315 0%, rgba(255, 0, 255, 0) 50%, #1a1a1a 100%);
+        padding: 0px 20px;
+        box-sizing: border-box;
   }
 
   section.main article.main-article {
     width: 100%;  
     gap: 10px;
     border-radius: 8px;
-    color: white;
+    color: #d95315;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -251,8 +248,6 @@ h2.title i {
 .btn-color-black i{
   font-size:25px;
 }
-
-
 
 /* .btnToUp {
   width: 2.5%;
