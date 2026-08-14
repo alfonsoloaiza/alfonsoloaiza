@@ -18,8 +18,11 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: space-evenly;
-        background: #0e1116;      
-        background-image: radial-gradient(circle, #d95315 0%, rgba(255, 0, 255, 0) 50%, #1a1a1a 100%);
+        background: #011950;
+        background-image: radial-gradient(circle,
+      rgba(255, 0, 255, 0.6) 0%,
+      rgba(255, 0, 255, 0) 70%,
+      #1a1a1a 100%);
         padding: 0px 20px;
         box-sizing: border-box;
   }
@@ -28,7 +31,7 @@
     width: 100%;  
     gap: 10px;
     border-radius: 8px;
-    color: #d95315;
+    color: white;
     font-weight: bold;
     display: flex;
     flex-direction: column;
